@@ -1,0 +1,44 @@
+body {
+    display:grid;
+    grid-template-rows: 3rem auto 3rem;
+}
+
+header,
+footer {
+    background-color: #011434;
+    color: white;
+    display: grid;
+    align-items: center;
+}
+
+header img {
+    height: 3rem;
+}
+
+section {
+    margin-bottom: 10%;
+}
+.container {
+    position: relative;
+}
+
+.boolean-detail {
+    position: absolute;
+    top: 9%;
+    right: 25.5%;
+    width: 5%;
+    border-radius: 50%;
+    
+}
+
+.laptop-detail {
+    width:50%;
+    margin: 5% 25% 5% 25%
+}
+
+p {
+    line-height:1.5rem;
+    padding: 1rem;
+    margin: 0px 20% 0% 20%;
+}
+
